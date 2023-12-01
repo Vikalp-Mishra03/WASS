@@ -1,0 +1,321 @@
+.enterprise-boxes {
+    color: $color7;
+    width: 85%;
+    margin: auto;
+
+    .info {
+        margin-top: 30px;
+        // border: 2px solid;
+        width: 25%;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 7px 12px 1px rgba(0,0,0,0.75);
+
+        h2 {
+            font-size: 20px;
+            font-weight: 700;
+            filter: blur(0.5px);
+        }
+
+        .price {
+
+            h3 {
+                font-size: 50px;
+                font-weight: 600;
+            }
+
+            p {
+                position: relative;
+                top: -42px;
+                left: 84px;
+                font-size: 20px;
+                font-weight: 400;
+            }
+        }
+
+        .contact-info {
+            margin-top: -30px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .item {
+            margin-top: 10px;
+
+            li {
+                text-decoration: none;
+                display: flex;
+                gap: 10px;
+                font-size: 20px;
+                margin-bottom: 15px;
+                align-items: center;
+                font-weight: 600;
+
+                .check {
+                    background-color: #e4e0f9;
+                    width: 30px;
+                    height: 30px;
+                    padding: 7px;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        .button1 {
+            display: flex;
+            align-items: center;
+            border: 1px solid #e4e0f9;
+            gap: 17px;
+            justify-content: center;
+            padding: 10px;
+            border-radius: 35px;
+            font-size: 17px;
+            font-weight: 700;
+            margin-top: 50px;
+        }
+    }
+}
+
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .enterprise-boxes {
+        flex-direction: column;
+
+        .info {
+            margin-top: 30px;
+            border: 2px solid;
+            width: 84%;
+            padding: 20px;
+            border-radius: 20px;
+            margin-left: 1px;
+
+            h2 {
+                font-size: 20px;
+                font-weight: 700;
+                filter: blur(0.5px);
+            }
+
+            .price {
+
+                h3 {
+                    font-size: 50px;
+                    font-weight: 600;
+                }
+
+                p {
+                    position: relative;
+                    top: -42px;
+                    left: 84px;
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+            }
+
+            .contact-info {
+                margin-top: -30px;
+                font-size: 17px;
+                font-weight: 700;
+            }
+
+            .item {
+                margin-top: 10px;
+
+                li {
+                    text-decoration: none;
+                    display: flex;
+                    gap: 10px;
+                    font-size: 18px;
+                    margin-bottom: 15px;
+                    align-items: center;
+                    font-weight: 600;
+
+                    .check {
+                        background-color: #e4e0f9;
+                        width: 30px;
+                        height: 30px;
+                        padding: 7px;
+                        border-radius: 50%;
+                    }
+                }
+            }
+
+            .button1 {
+                display: flex;
+                align-items: center;
+                border: 1px solid #e4e0f9;
+                gap: 17px;
+                justify-content: center;
+                padding: 10px;
+                border-radius: 35px;
+                font-size: 17px;
+                font-weight: 700;
+                margin-top: 50px;
+            }
+        }
+    }
+
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .enterprise-boxes {
+        flex-direction: column;
+
+        .info {
+            margin-top: 30px;
+            border: 2px solid;
+            width: 84%;
+            padding: 20px;
+            border-radius: 20px;
+            margin-left: 1px;
+
+            h2 {
+                font-size: 20px;
+                font-weight: 700;
+                filter: blur(0.5px);
+            }
+
+            .price {
+
+                h3 {
+                    font-size: 50px;
+                    font-weight: 600;
+                }
+
+                p {
+                    position: relative;
+                    top: -42px;
+                    left: 84px;
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+            }
+
+            .contact-info {
+                margin-top: -30px;
+                font-size: 17px;
+                font-weight: 700;
+            }
+
+            .item {
+                margin-top: 10px;
+
+                li {
+                    text-decoration: none;
+                    display: flex;
+                    gap: 10px;
+                    font-size: 18px;
+                    margin-bottom: 15px;
+                    align-items: center;
+                    font-weight: 600;
+
+                    .check {
+                        background-color: #e4e0f9;
+                        width: 30px;
+                        height: 30px;
+                        padding: 7px;
+                        border-radius: 50%;
+                    }
+                }
+            }
+
+            .button1 {
+                display: flex;
+                align-items: center;
+                border: 1px solid #e4e0f9;
+                gap: 17px;
+                justify-content: center;
+                padding: 10px;
+                border-radius: 35px;
+                font-size: 17px;
+                font-weight: 700;
+                margin-top: 50px;
+            }
+        }
+    }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .enterprise-boxes {
+        color: #030f62;
+        width: 85%;
+        margin: auto;
+        gap: 5px;
+
+        .info {
+            margin-top: 30px;
+            border: 2px solid;
+            width: 84%;
+            padding: 20px;
+            border-radius: 20px;
+            margin-left: 1px;
+
+
+            h2 {
+                font-size: 20px;
+                font-weight: 700;
+                filter: blur(0.5px);
+            }
+
+            .price {
+
+                h3 {
+                    font-size: 50px;
+                    font-weight: 600;
+                }
+
+                p {
+                    position: relative;
+                    top: -42px;
+                    left: 84px;
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+            }
+
+            .contact-info {
+                margin-top: -30px;
+                font-size: 17px;
+                font-weight: 700;
+            }
+
+            .item {
+                margin-top: 10px;
+
+                li {
+                    text-decoration: none;
+                    display: flex;
+                    gap: 10px;
+                    font-size: 18px;
+                    margin-bottom: 15px;
+                    align-items: center;
+                    font-weight: 600;
+
+                    .check {
+                        background-color: #e4e0f9;
+                        width: 30px;
+                        height: 30px;
+                        padding: 7px;
+                        border-radius: 50%;
+                    }
+                }
+            }
+
+            .button1 {
+                display: flex;
+                align-items: center;
+                border: 1px solid #e4e0f9;
+                gap: 17px;
+                justify-content: center;
+                padding: 10px;
+                border-radius: 35px;
+                font-size: 17px;
+                font-weight: 700;
+                margin-top: 50px;
+            }
+        }
+    }
+}

@@ -1,0 +1,398 @@
+.wrap {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 100px;
+
+    h3 {
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+    .left-wrapper {
+        position: relative;
+
+        .image {
+            width: 400px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                border-top-left-radius: 160px;
+            }
+        }
+
+        .container1 {
+            display: flex;
+            background-color: black;
+            color: #fff;
+            position: relative;
+            align-items: center;
+            width: 460px;
+            left: -100px;
+            gap: 20px;
+            padding: 10px 10px 20px 10px;
+            border-bottom-left-radius: 45px;
+
+            .date {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-left: 30px;
+
+                .day {
+                    font-size: 50px;
+                }
+
+                .year {
+                    margin-top: -20px;
+                    font-size: 20px;
+                }
+            }
+
+            .line {
+                width: 2px;
+                background: #fff;
+                height: 60px;
+                margin-top: 10px;
+            }
+        }
+
+        .image2 {
+            width: 200px;
+            position: absolute;
+            bottom: 40px;
+            right: -20px;
+            border: 7px solid $color6;
+
+            img {
+                width: 100%;
+                height: 100%;
+                border-top-right-radius: 40%;
+            }
+        }
+    }
+
+    .right-wrapper {
+        width: 55%;
+
+        .para {
+            margin-top: 20px;
+            font-size: 20px;
+            line-height: 25px;
+            margin-bottom: 30px;
+            font-weight: 600;
+            color: $color2;
+        }
+
+        .list {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 35px;
+
+            li {
+                margin-bottom: 10px;
+
+                .icon {
+                    margin-right: 10px;
+                    background-color: red;
+                    color: $color6;
+                    width: 25px;
+                    height: 25px;
+                    padding: 3px;
+                    border-radius: 50%;
+                }
+
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        .ceo {
+
+            .ceo-image {
+                margin-right: 10px;
+
+                img {
+                    border-radius: 50%;
+                    width: 75px;
+                    height: 75px;
+                }
+
+                .about-ceo {
+                    height: 55px;
+
+                }
+            }
+        }
+    }
+}
+
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .wrap {
+        width: 100%;
+        justify-content: space-evenly;
+        padding: 15px;
+        flex-direction: column;
+
+        h3 {
+            font-size: 17px;
+            font-weight: 700;
+        }
+
+        .left-wrapper {
+            margin-left: 30px;
+
+            .image {
+                width: 330px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-top-left-radius: 160px;
+                }
+            }
+
+            .container1 {
+                width: 320px;
+                left: -45px;
+                gap: 20px;
+
+                .date {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-left: 30px;
+
+                    .day {
+                        font-size: 50px;
+                    }
+
+                    .year {
+                        margin-top: -20px;
+                        font-size: 20px;
+                    }
+                }
+
+                .line {
+                    width: 2px;
+                    background: #fff;
+                    height: 60px;
+                    margin-top: 10px;
+                }
+            }
+
+            .image2 {
+                width: 135px;
+                bottom: 60px;
+                right: -20px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-top-right-radius: 40%;
+                }
+            }
+        }
+
+        .right-wrapper {
+            width: 100%;
+            padding: 10px;
+
+            .experience {
+                width: 40%;
+            }
+
+            h1 {
+                font-size: 29px;
+            }
+
+            .para {
+                font-size: 15px;
+            }
+
+
+            .ceo {
+
+                .ceo-image {
+                    margin-right: 10px;
+
+                    img {
+                        border-radius: 50%;
+                        width: 75px;
+                        height: 75px;
+                    }
+
+                    .about-ceo {
+                        height: 55px;
+
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .wrap {
+        width: 100%;
+        justify-content: space-evenly;
+        padding: 15px;
+        flex-direction: column;
+
+        h3 {
+            font-size: 17px;
+            font-weight: 700;
+        }
+
+        .left-wrapper {
+            margin-left: 30px;
+
+            .image {
+                width: 330px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-top-left-radius: 160px;
+                }
+            }
+
+            .container1 {
+                width: 320px;
+                left: -45px;
+                gap: 20px;
+
+                .date {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-left: 30px;
+
+                    .day {
+                        font-size: 50px;
+                    }
+
+                    .year {
+                        margin-top: -20px;
+                        font-size: 20px;
+                    }
+                }
+
+                .line {
+                    width: 2px;
+                    background: #fff;
+                    height: 60px;
+                    margin-top: 10px;
+                }
+            }
+
+            .image2 {
+                width: 135px;
+                bottom: 60px;
+                right: -20px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-top-right-radius: 40%;
+                }
+            }
+        }
+
+        .right-wrapper {
+            width: 100%;
+            padding: 10px;
+
+            .experience {
+                width: 40%;
+            }
+
+            h1 {
+                font-size: 29px;
+            }
+
+            .para {
+                font-size: 15px;
+            }
+
+
+            .ceo {
+
+                .ceo-image {
+                    margin-right: 10px;
+
+                    img {
+                        border-radius: 50%;
+                        width: 75px;
+                        height: 75px;
+                    }
+
+                    .about-ceo {
+                        height: 55px;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .wrap {
+        width: 100%;
+        justify-content: space-evenly;
+        padding: 15px;
+        flex-direction: column;
+
+        h3 {
+            font-size: 17px;
+            font-weight: 700;
+        }
+
+        .left-wrapper {
+            margin-left: 30px;
+
+            .image {
+                width: 400px;
+            }
+
+            .container1 {
+                width: 400px;
+                left: -60px;
+            }
+
+            .image2 {
+                width: 200px;
+                bottom: 60px;
+                right: -70px;
+            }
+        }
+
+        .right-wrapper {
+            width: 100%;
+            padding: 10px;
+
+            .experience {
+                width: 40%;
+            }
+
+            h1 {
+                font-size: 29px;
+            }
+
+            .para {
+                font-size: 15px;
+            }
+
+
+
+        }
+    }
+}

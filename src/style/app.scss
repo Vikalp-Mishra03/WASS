@@ -1,0 +1,42 @@
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+  @import 'statics';
+  @import 'main';
+  @import 'goal';
+  @import 'service';
+  @import 'goal2';
+  @import 'workflow';
+  @import 'form';
+  @import 'pricing';
+  @import 'newsletter';
+  @import 'solution';
+  @import 'security';
+  @import 'footer';
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  h1 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: $text2;
+  }
+
+  .experience {
+    background-color: $color1;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 45px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
